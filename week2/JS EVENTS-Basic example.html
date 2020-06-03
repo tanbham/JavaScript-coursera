@@ -1,0 +1,17 @@
+<html>
+	<h1>BASIC EVENTS
+		<script>
+			function displayMessage(msg){
+				document.getElementById('output').innerHTML = msg+" EVENT OCCURED";
+			}
+		</script>
+	</h1>
+	
+	<body onload = "displayMessage('LOAD')" 
+	onresize = "displayMessage('RESIZE')">	
+	
+		<p onclick = "displayMessage('ONCLICK')"> click here</p>
+		<p id = "output"></p>
+	</body>
+
+</html>
