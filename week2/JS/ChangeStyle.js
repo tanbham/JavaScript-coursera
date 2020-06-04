@@ -1,9 +1,8 @@
-function open(){
+function openMe(){
 	x = document.getElementById("hemm");
-	x.innerHTML = "bye";
-	//x.className = "opened";
+	x.className = "opened";
 }
-function close(){
+function closeMe(){
 	x = document.getElementById("hemm");
 	x.className = "closed";
 }

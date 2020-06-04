@@ -1,0 +1,19 @@
+<html>
+	<script>
+		var fruits = ["mango","banana"];
+		
+		function loadFruits(){
+			document.getElementById("hey").innerHTML = fruits;
+		}
+		
+		function addFruits(){
+			var fruit = prompt("Enter your fav fruit");
+			fruits[fruits.length] = fruit;
+			document.getElementById("hey").innerHTML = fruits;
+		}
+	</script>
+	<body onload="loadFruits()">
+		<button onclick="addFruits()">CLICK TO ADD FRUITS</button>
+		<p id="hey"></p>
+	</body>
+</html>
